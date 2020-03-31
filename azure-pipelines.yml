@@ -22,6 +22,10 @@ variables:
 
   azureServiceConnectionId: 'b07ad338-48cc-4c5e-9dd2-06d71e4bb3ce'
 
+  pythonVersion: '3.x'
+
+  
+
 stages:
 - stage: Build
   displayName: Build stage
