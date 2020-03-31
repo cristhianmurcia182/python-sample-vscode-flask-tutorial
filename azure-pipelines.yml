@@ -20,6 +20,8 @@ variables:
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
+  azureServiceConnectionId: 'b07ad338-48cc-4c5e-9dd2-06d71e4bb3ce'
+
 stages:
 - stage: Build
   displayName: Build stage
